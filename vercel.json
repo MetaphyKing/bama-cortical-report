@@ -1,0 +1,32 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/pdf",
+      "destination": "/BAMA_Cortical_Amplification_Report.pdf"
+    },
+    {
+      "source": "/report.pdf",
+      "destination": "/BAMA_Cortical_Amplification_Report.pdf"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline; filename=\"BAMA_Cortical_Amplification_Report.pdf\""
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

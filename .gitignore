@@ -1,0 +1,9 @@
+# Private USPTO filings & receipts (NEVER commit to public repo)
+patent/
+document.pdf
+N417*
+USPTO_*
+*.py
+!public-verifier/verify_bama_public_cartridge.py
+.vercel/
+node_modules/

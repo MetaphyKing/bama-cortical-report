@@ -1,0 +1,135 @@
+{
+  "timestamp_utc": "2026-10-20T08:43:42Z",
+  "arena_file": "C:\\dev\\bama_graph\\arena\\bama_72_kernel_prime_arena.bin",
+  "arena_bytes": 18432,
+  "kernel_count": 72,
+  "unprimed_baseline_means": {
+    "t1_bbb_9b_solo_pct": 40.0,
+    "t2_lumen_4_5b_solo_pct": 26.66,
+    "t3a_bbb_unprimed_53kernel_pct": 40.0,
+    "t4a_lumen_unprimed_53kernel_pct": 33.34,
+    "t5a_3model_unprimed_53kernel_pct": 46.66
+  },
+  "blind_primed_72kernel_means": {
+    "t3b_bbb_primed_72kernel_pct": 60.0,
+    "t4b_lumen_primed_72kernel_pct": 100.0,
+    "t5b_3model_primed_72kernel_pct": 100.0
+  },
+  "rows": [
+    {
+      "task_id": "MMLU-PRO-BLIND",
+      "benchmark": "MMLU-Pro (10-Choice Distributed Consensus \u2014 Blind)",
+      "routed_prime_kernels": [
+        "K54_DIST_CONSENSUS_AXIOMS",
+        "K57_BITWISE_AND_ALGORITHMIC_SYNTHESIS",
+        "K63_GRAPH_THEORY_AND_COMBINATORICS",
+        "K66_COMPILER_AST_AND_TYPE_SYSTEMS"
+      ],
+      "arena_latency_ms": 19.92,
+      "t1_bbb_9b_solo": 0.0,
+      "t2_lumen_4_5b_solo": 0.0,
+      "t3a_bbb_unprimed_53kernel": 0.0,
+      "t4a_lumen_unprimed_53kernel": 0.0,
+      "t5a_3model_unprimed_53kernel": 0.0,
+      "t3b_bbb_primed_72kernel": 0.0,
+      "t4b_lumen_primed_72kernel": 100.0,
+      "t5b_3model_primed_72kernel": 100.0,
+      "bbb_w3_verification": "W3_FIRST_PRINCIPLES_AUDITED",
+      "lumen_w3_verification": "W3_FIRST_PRINCIPLES_AUDITED",
+      "bbb_latency_ms": 26363.0,
+      "lumen_latency_ms": 20048.7
+    },
+    {
+      "task_id": "GPQA-DIAMOND-BLIND",
+      "benchmark": "GPQA-Diamond (PhD-Level Algebraic Quasicrystals \u2014 Blind)",
+      "routed_prime_kernels": [
+        "K55_ALGEBRAIC_RINGS_AND_GALOIS",
+        "K64_FORMAL_LOGIC_AND_COMPLEXITY",
+        "K56_NUMBER_THEORY_AND_CRT",
+        "K57_BITWISE_AND_ALGORITHMIC_SYNTHESIS"
+      ],
+      "arena_latency_ms": 7.43,
+      "t1_bbb_9b_solo": 66.7,
+      "t2_lumen_4_5b_solo": 0.0,
+      "t3a_bbb_unprimed_53kernel": 66.7,
+      "t4a_lumen_unprimed_53kernel": 66.7,
+      "t5a_3model_unprimed_53kernel": 100.0,
+      "t3b_bbb_primed_72kernel": 100.0,
+      "t4b_lumen_primed_72kernel": 100.0,
+      "t5b_3model_primed_72kernel": 100.0,
+      "bbb_w3_verification": "W3_MATH_SANDBOX_VERIFIED: A_7=13, B_7=8, N(phi^{n})=-1",
+      "lumen_w3_verification": "W3_MATH_SANDBOX_VERIFIED: (13, 8)\n-1",
+      "bbb_latency_ms": 18303.4,
+      "lumen_latency_ms": 9727.4
+    },
+    {
+      "task_id": "MATH-500-BLIND",
+      "benchmark": "MATH-500 / GSM8K (Number Theory & CRT \u2014 Blind)",
+      "routed_prime_kernels": [
+        "K56_NUMBER_THEORY_AND_CRT",
+        "K64_FORMAL_LOGIC_AND_COMPLEXITY",
+        "K57_BITWISE_AND_ALGORITHMIC_SYNTHESIS",
+        "K37_GUIDING_LIGHT"
+      ],
+      "arena_latency_ms": 5.64,
+      "t1_bbb_9b_solo": 33.3,
+      "t2_lumen_4_5b_solo": 33.3,
+      "t3a_bbb_unprimed_53kernel": 33.3,
+      "t4a_lumen_unprimed_53kernel": 0.0,
+      "t5a_3model_unprimed_53kernel": 33.3,
+      "t3b_bbb_primed_72kernel": 100.0,
+      "t4b_lumen_primed_72kernel": 100.0,
+      "t5b_3model_primed_72kernel": 100.0,
+      "bbb_w3_verification": "W3_MATH_SANDBOX_VERIFIED: X = 68\nX^2 + 3*X = 4828\nPrime Factors of X = [2, 2, 17]",
+      "lumen_w3_verification": "W3_MATH_SANDBOX_VERIFIED: X: 68\nX^2 + 3*X: 4828\nPrime Factorization of X: {2: 2, 17: 1}",
+      "bbb_latency_ms": 27420.4,
+      "lumen_latency_ms": 16455.8
+    },
+    {
+      "task_id": "HUMANEVAL-PLUS-BLIND",
+      "benchmark": "HumanEval+ (Live Executable Python Code Generation \u2014 Blind Pass@1)",
+      "routed_prime_kernels": [
+        "K57_BITWISE_AND_ALGORITHMIC_SYNTHESIS",
+        "K64_FORMAL_LOGIC_AND_COMPLEXITY",
+        "K56_NUMBER_THEORY_AND_CRT",
+        "K06_SPTS"
+      ],
+      "arena_latency_ms": 11.65,
+      "t1_bbb_9b_solo": 0.0,
+      "t2_lumen_4_5b_solo": 0.0,
+      "t3a_bbb_unprimed_53kernel": 0.0,
+      "t4a_lumen_unprimed_53kernel": 0.0,
+      "t5a_3model_unprimed_53kernel": 0.0,
+      "t3b_bbb_primed_72kernel": 0.0,
+      "t4b_lumen_primed_72kernel": 100.0,
+      "t5b_3model_primed_72kernel": 100.0,
+      "bbb_w3_verification": "W3_REPAIR_ATTEMPTED (Traceback (most recent call last):\n  File \"<string>\", line 52, in <module>\n    res = fn(b\"\\xff\\x00\")\n  File \"<string>\", line 30, in scrub_and_hash_spts\n    scrubbed_bytes[s // 2] = (scrubbed_bytes[s // 2] & ~3) | pair\n                              ~~~~~~~~~~~~~~^^^^^^^^\nIndexError: bytearray index out of range)",
+      "lumen_w3_verification": "W3_AST_AND_SMOKE_VERIFIED (SMOKE_OK 5500 690)",
+      "bbb_latency_ms": 32501.3,
+      "lumen_latency_ms": 6976.0
+    },
+    {
+      "task_id": "IFEVAL-BLIND",
+      "benchmark": "IFEval (Strict Verifiable JSON & Negative Constraints \u2014 Blind)",
+      "routed_prime_kernels": [
+        "K58_STRICT_SCHEMA_AND_IFEVAL_AUDITOR",
+        "K72_PRIME_COLLECTIVE_SELF_VERIFIER",
+        "K64_FORMAL_LOGIC_AND_COMPLEXITY",
+        "K56_NUMBER_THEORY_AND_CRT"
+      ],
+      "arena_latency_ms": 7.97,
+      "t1_bbb_9b_solo": 100.0,
+      "t2_lumen_4_5b_solo": 100.0,
+      "t3a_bbb_unprimed_53kernel": 100.0,
+      "t4a_lumen_unprimed_53kernel": 100.0,
+      "t5a_3model_unprimed_53kernel": 100.0,
+      "t3b_bbb_primed_72kernel": 100.0,
+      "t4b_lumen_primed_72kernel": 100.0,
+      "t5b_3model_primed_72kernel": 100.0,
+      "bbb_w3_verification": "W3_IFEVAL_SCHEMA_VERIFIED",
+      "lumen_w3_verification": "W3_IFEVAL_SCHEMA_VERIFIED",
+      "bbb_latency_ms": 2050.9,
+      "lumen_latency_ms": 2106.7
+    }
+  ]
+}

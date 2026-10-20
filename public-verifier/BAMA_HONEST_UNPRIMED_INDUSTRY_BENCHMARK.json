@@ -1,0 +1,74 @@
+{
+  "mean_t1_bbb_solo": 40.0,
+  "mean_t2_lumen_solo": 26.66,
+  "mean_t3_bbb_unprimed_bama": 40.0,
+  "mean_t4_lumen_unprimed_bama": 33.34,
+  "mean_t5_3model_lockglass_unprimed": 46.66,
+  "rows": [
+    {
+      "task_id": "MMLU-PRO-BLIND",
+      "routed_kernels": [
+        "K23_STRANDS_DECIDER",
+        "K37_GUIDING_LIGHT",
+        "K40_REPENTANCE_CONVENTION"
+      ],
+      "t1_bbb_solo": 0.0,
+      "t2_lumen_solo": 0.0,
+      "t3_bbb_unprimed_bama": 0.0,
+      "t4_lumen_unprimed_bama": 0.0,
+      "t5_3model_lockglass_unprimed": 0.0
+    },
+    {
+      "task_id": "GPQA-DIAMOND-BLIND",
+      "routed_kernels": [
+        "K29_ROSETTA_ARMORY",
+        "K37_GUIDING_LIGHT",
+        "K40_REPENTANCE_CONVENTION"
+      ],
+      "t1_bbb_solo": 66.7,
+      "t2_lumen_solo": 0.0,
+      "t3_bbb_unprimed_bama": 66.7,
+      "t4_lumen_unprimed_bama": 66.7,
+      "t5_3model_lockglass_unprimed": 100.0
+    },
+    {
+      "task_id": "MATH-500-BLIND",
+      "routed_kernels": [
+        "K37_GUIDING_LIGHT",
+        "K39_RECIPROCAL_NECESSITY",
+        "K06_SPTS"
+      ],
+      "t1_bbb_solo": 33.3,
+      "t2_lumen_solo": 33.3,
+      "t3_bbb_unprimed_bama": 33.3,
+      "t4_lumen_unprimed_bama": 0.0,
+      "t5_3model_lockglass_unprimed": 33.3
+    },
+    {
+      "task_id": "HUMANEVAL-PLUS-BLIND",
+      "routed_kernels": [
+        "K06_SPTS",
+        "K29_ROSETTA_ARMORY",
+        "K37_GUIDING_LIGHT"
+      ],
+      "t1_bbb_solo": 0.0,
+      "t2_lumen_solo": 0.0,
+      "t3_bbb_unprimed_bama": 0.0,
+      "t4_lumen_unprimed_bama": 0.0,
+      "t5_3model_lockglass_unprimed": 0.0
+    },
+    {
+      "task_id": "IFEVAL-BLIND",
+      "routed_kernels": [
+        "K26_GNKG_BIFROST",
+        "K37_GUIDING_LIGHT",
+        "K39_RECIPROCAL_NECESSITY"
+      ],
+      "t1_bbb_solo": 100.0,
+      "t2_lumen_solo": 100.0,
+      "t3_bbb_unprimed_bama": 100.0,
+      "t4_lumen_unprimed_bama": 100.0,
+      "t5_3model_lockglass_unprimed": 100.0
+    }
+  ]
+}
