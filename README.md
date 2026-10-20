@@ -1,3 +1,6 @@
+- **Official CERN Zenodo DOI:** [`10.5281/zenodo.23506598`](https://doi.org/10.5281/zenodo.23506598) ([Zenodo Record `23506598`](https://zenodo.org/records/23506598))
+- **HuggingFace Hub:** [`https://huggingface.co/MetaphyKing/bama-cortical-report`](https://huggingface.co/MetaphyKing/bama-cortical-report)
+
 # How BAMA Elevates Local AI to Frontier Performance — Cortical Amplification
 
 **Bare-Metal Agentic Memory Architecture (BAMA): Zero-Decompression 256-Byte Cortical Graphs in $\mathbb{Q}(\sqrt{5})$, 90/10 Notebook Context Window Split & 4-Tier Cognitive Compilation on 4B–9B Local Models**
