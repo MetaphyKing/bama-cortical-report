@@ -852,6 +852,11 @@
     .action-cluster {
       width: 100%;
       justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .btn-pdf {
+      flex: 1 1 calc(50% - 6px);
     }
     .btn-pdf {
       flex: 1;
@@ -921,6 +926,13 @@
     transform: none !important;
   }
 }
+  @media (max-width: 860px) {
+    html, body { overflow-x: hidden; max-width: 100%; }
+    .mode-tabs { display: grid !important; grid-template-columns: 1fr; width: 100%; gap: 4px; }
+    .action-cluster { display: grid !important; grid-template-columns: 1fr 1fr; width: 100%; gap: 6px; }
+    .btn-pdf { width: 100%; justify-content: center; text-align: center; font-size: 11px; padding: 7px 8px; }
+    .studio-canvas .page * { max-width: 100%; overflow-wrap: break-word; }
+  }
 </style>
 </head>
 <body>
